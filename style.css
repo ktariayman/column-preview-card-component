@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+#section {
+  width: 100%;
+  height: 98vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-left: 30px;
+  width: 280px;
+  height: 520px;
+}
+
+.card:nth-of-type(1) {
+  background-color: hsl(31, 77%, 52%);
+
+}
+
+.card:nth-of-type(2) {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card:nth-of-type(3) {
+  background-color: hsl(179, 100%, 13%);
+
+}
+
+.card h1 {
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+.card p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 12px;
+}
+
+.btn {
+  padding: 0.75rem 1.25rem;
+  background-color: #fff;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+
+}
+
+.btn1 {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn2 {
+  color: hsl(184, 100%, 22%);
+}
+
+.btn3 {
+  color: hsl(179, 100%, 13%);
+}
+
+.attribution{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  #section {
+    margin: 30px 10px ;
+    height: auto;
+    flex-direction: column;
+  }
+
+
+}
